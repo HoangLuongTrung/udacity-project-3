@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: ConfigMap
+data:
+  AWS_BUCKET: myawsbucket796706398716
+  AWS_PROFILE: default
+  AWS_REGION: us-west-1
+  JWT_SECRET: hello
+  POSTGRES_DB: postgres
+  POSTGRES_HOST: my-data-base-796706398716.c1i7kod4usog.us-west-1.rds.amazonaws.com
+  POSTGRES_USERNAME: trunghlbuh
+  POSTGRES_PASSWORD: password123
+  URL: http://a28a7c4a8d5dc420da08ba3480fb233a-466917741.us-west-1.elb.amazonaws.com
+metadata:
+  name: env-config
